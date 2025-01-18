@@ -1,0 +1,22 @@
+.box{
+    background-color: $primary;
+
+    &-title{
+        color: $danger;
+    }
+
+    &-text{
+        color: $success;
+        &-button{
+            background-color: red;
+
+            &:hover{
+                background-color: green;
+            }
+        }
+
+        .button{
+            background-color: blue;
+        }
+    }
+}

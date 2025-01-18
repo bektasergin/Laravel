@@ -1,0 +1,23 @@
+.box {
+    background: #ccc;
+
+    &-title {
+        color: $danger;
+    }
+
+    &-text {
+        color: $success;
+
+        &-button {
+            background-color: red;
+
+            &:hover {
+                background-color: green;
+            }
+        }
+
+        .button {
+            background-color: red;
+        }
+    }
+}

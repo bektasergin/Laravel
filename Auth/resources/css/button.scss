@@ -1,0 +1,23 @@
+$btn-default: blue;
+$btn-info: rgb(19, 127, 163);
+$btn-success: green;
+$btn-opacity: 0.3;
+
+.button {
+    background-color: $btn-default;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: $btn-opacity;
+    }
+
+    &.button-info {
+        background-color: $btn-info;
+    }
+
+    &.button-success {
+        background-color: $btn-success;
+    }
+}

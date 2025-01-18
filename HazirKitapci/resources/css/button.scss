@@ -1,0 +1,19 @@
+$btn-default:blue;
+$btn-info:lightblue;
+$btn-success:green;
+$btn-opacity:0.3;
+.button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    &:hover{
+        
+        opacity: $btn-opacity;
+    }
+    &.button-info{
+        background-color: $btn-info;
+    }
+    &.button-success{
+        background-color: $btn-success;
+    }
+}
